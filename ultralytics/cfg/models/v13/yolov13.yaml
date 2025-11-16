@@ -47,4 +47,4 @@ head:
   - [-1, 2, DSC3k2, [1024,True]] # 30 (P5/32-large)
   - [[-1, 11], 1, FullPAD_Tunnel, []]  
   
-  - [[23, 27, 31], 1, Detect, [nc]] # Detect(P3, P4, P5)
+  - [[23, 27, 31], 1, Segment, [nc, 32, 256]] # Detect(P3, P4, P5)
